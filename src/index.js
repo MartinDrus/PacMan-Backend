@@ -16,7 +16,7 @@ app.use(express.json());
 
 // Middleware fuer CROSS-ORIGIN-REQUEST
 app.use(cors({
-    origin: 'http://127.0.0.1:5501',
+    origin: 'https://martindrus.github.io/pacman/',
     // credentials: true
 }));
 
