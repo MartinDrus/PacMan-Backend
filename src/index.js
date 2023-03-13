@@ -17,6 +17,12 @@ app.use(express.json());
 // Middleware fuer CROSS-ORIGIN-REQUEST
 app.use(cors({
     origin: 'https://snake-mx60wkft8-martindrus.vercel.app',
+}));
+
+const allowedOrigins = ['https://martindrus.github.io', 'https://pacwomen.vercel.app', 'https://snake-eosin.vercel.app'];
+
+app.use(cors({
+    origin: allowedOrigins
     // credentials: true
 }));
 
