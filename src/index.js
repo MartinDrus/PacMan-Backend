@@ -16,7 +16,7 @@ app.use(express.json());
 
 // Middleware fuer CROSS-ORIGIN-REQUEST
 app.use(cors({
-    origin: 'https://snake-eosin.vercel.app/',
+    origin: 'https://snake-mx60wkft8-martindrus.vercel.app',
     // credentials: true
 }));
 
